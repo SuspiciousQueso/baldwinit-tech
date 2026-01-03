@@ -6,7 +6,7 @@ services:
       - APP_NAME=BaldwinIT
       - APP_URL=https://baldwinit.tech
       - CONTACT_EMAIL=support@baldwinit.tech
-      - TICKET_URL=https://mspguild.tech/public/modules/frontdesk/create.php
+      - TICKET_URL=https://mspguild.tech/modules/frontdesk/create.php
     networks:
       - infrastructure_management_net
     expose:
