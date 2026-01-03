@@ -2,16 +2,19 @@
 <header class="sticky top-0 z-40 backdrop-blur supports-[backdrop-filter]:bg-black/30 bg-black/60 border-b border-white/10">
     <div class="mx-auto max-w-5xl px-4 py-3 flex items-center justify-between">
         <a href="/" class="flex items-center gap-3">
-            <img
-                    src="/assets/img/baldwinit-logo.png"
-                    alt="BaldwinIT"
-                    class="h-9 w-auto rounded-lg"
-                    loading="eager"
-            />
+            <div class="logo-square">
+                <img
+                        src="/assets/img/baldwinit-logo-sm.png"
+                        alt="BaldwinIT"
+                        class="logo-img"
+                />
+            </div>
+
             <span class="hidden sm:inline font-semibold tracking-tight text-white/90">
-    Baldwin<span class="text-emerald-400">IT</span>
-  </span>
+                Baldwin<span class="text-emerald-400">IT</span>
+            </span>
         </a>
+
 
 
         <nav class="flex items-center gap-2 text-sm">
