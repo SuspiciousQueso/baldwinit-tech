@@ -6,17 +6,12 @@ services:
       - APP_NAME=BaldwinIT
       - APP_URL=https://baldwinit.tech
       - CONTACT_EMAIL=support@baldwinit.tech
-      # Optional: link to MSPGuild FrontDesk "create ticket" page
       - TICKET_URL=https://mspguild.tech/public/modules/frontdesk/create.php
-      # If you want a Calendly/booking link later:
-      - BOOKING_URL=
     networks:
-      - proxy
-    # If your nginx-proxy routes by container name on the same network, you may not need ports.
-    # Expose internally on 80; your reverse proxy will forward to it.
+      - infrastructure_management_net
     expose:
       - "80"
 
 networks:
-  proxy:
+  infrastructure_management_net:
     external: true
