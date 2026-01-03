@@ -94,17 +94,35 @@ $description = 'How BaldwinIT thinks: systems-first, remote-first support rooted
             $ring = $isEmerald ? 'hover:border-emerald-500/35 hover:shadow-emerald-500/10' : 'hover:border-cyan-500/35 hover:shadow-cyan-500/10';
             $glow = $isEmerald ? 'rgba(16,185,129,0.10)' : 'rgba(34,211,238,0.10)';
             ?>
-            <div class="group relative overflow-hidden rounded-3xl border border-white/10 bg-white/5 p-6 md:p-8 shadow-sm transition hover:-translate-y-0.5 <?= $ring ?>">
-                <div class="absolute inset-0 opacity-0 transition group-hover:opacity-100"
-                     style="background: radial-gradient(700px circle at 20% 0%, <?= $glow ?>, transparent 45%);"></div>
+            <details class="group relative overflow-hidden rounded-3xl border border-white/10 bg-white/5 p-0 shadow-sm transition hover:-translate-y-0.5 <?= $ring ?>">
+                <summary class="list-none cursor-pointer select-none p-6 md:p-8">
+                    <div class="absolute inset-0 opacity-0 transition group-hover:opacity-100"
+                         style="background: radial-gradient(700px circle at 20% 0%, <?= $glow ?>, transparent 45%);"></div>
 
-                <div class="relative">
-                    <h2 class="text-xl font-semibold tracking-tight text-white/90"><?= e($s['title']) ?></h2>
-                    <div class="mt-4 text-sm">
+                    <div class="relative flex items-center justify-between gap-4">
+                        <h2 class="text-xl font-semibold tracking-tight text-white/90"><?= e($s['title']) ?></h2>
+
+                        <span class="flex h-9 w-9 items-center justify-center rounded-xl border border-white/10 bg-white/5 text-white/70 transition
+                         group-hover:border-white/20 group-hover:text-white/90">
+                <!-- chevron -->
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 transition duration-200 group-open:rotate-180" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 9l-7.5 7.5L4.5 9" />
+                </svg>
+            </span>
+                    </div>
+
+                    <p class="relative mt-2 text-sm text-white/60">
+                        Tap to expand
+                    </p>
+                </summary>
+
+                <div class="px-6 pb-6 md:px-8 md:pb-8">
+                    <div class="text-sm">
                         <?= paragraphize($s['body']) ?>
                     </div>
                 </div>
-            </div>
+            </details>
+
         <?php endforeach; ?>
     </section>
 
