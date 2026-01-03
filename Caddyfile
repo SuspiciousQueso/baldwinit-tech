@@ -1,0 +1,18 @@
+:80 {
+  root * /srv/public
+  encode zstd gzip
+
+  @phpFiles path *.php
+  php_fastcgi 127.0.0.1:9000
+
+  file_server
+
+  # Security-ish headers (light, MVP-safe)
+  header {
+    -Server
+    X-Content-Type-Options "nosniff"
+    X-Frame-Options "DENY"
+    Referrer-Policy "no-referrer"
+    Permissions-Policy "geolocation=(), microphone=(), camera=()"
+  }
+}
