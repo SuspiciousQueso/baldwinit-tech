@@ -7,7 +7,7 @@ $description = 'Remote-first IT support for home users and small setups. Fast, c
 ?><!doctype html>
 <html lang="en" class="dark">
 <head><?php include __DIR__ . '/../src/views/partials/head.php'; ?></head>
-<body class="grain bg-neutral-950 text-white">
+<body class="grain bg-slate-950 text-white">
 <?php include __DIR__ . '/../src/views/partials/nav.php'; ?>
 
 <main class="mx-auto max-w-5xl px-4 pt-10 pb-14">
