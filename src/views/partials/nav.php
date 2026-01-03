@@ -21,8 +21,9 @@
         <nav class="flex items-center gap-4">
             <a href="/" class="text-sm text-white/70 hover:text-white transition">Home</a>
             <a href="/services.php" class="text-sm text-white/70 hover:text-white transition">Services</a>
-            <a href="/operator.php" class="text-sm text-white/70 hover:text-white transition">The Operator</a>
-            <a href="/contact.php" class="text-sm text-white/70 hover:text-white transition">Contact</a>
+
+            <a href="/contact.php" class="text-sm text-white/70 hover:text-white transition">Contact </a>||
+            <a href="/operator.php" class="text-sm text-white/70 hover:text-white transition"> The Operator</a>
         </nav>
 
     </div>
