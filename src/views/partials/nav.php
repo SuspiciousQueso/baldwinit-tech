@@ -3,7 +3,7 @@
     <div class="mx-auto max-w-5xl px-4 py-3 flex items-center justify-between">
         <a href="/" class="flex items-center gap-3">
             <img
-                    src="/../baldwinit-tech/public/assets/img/baldwinit-logo.png"
+                    src="/assets/img/baldwinit-logo.png"
                     alt="BaldwinIT"
                     class="h-9 w-auto rounded-lg"
                     loading="eager"
