@@ -30,7 +30,8 @@ $description = 'Remote-first IT support for home users and small setups. Fast, c
             </p>
 
             <div class="flex flex-col sm:flex-row gap-3">
-                <a href="/contact.php" class="inline-flex items-center justify-center px-5 py-3 rounded-2xl bg-white text-black font-semibold hover:bg-white/90 transition shadow-soft">
+                <a href="/conta
+                ct.php" class="inline-flex items-center justify-center px-5 py-3 rounded-2xl bg-white text-black font-semibold hover:bg-white/90 transition shadow-soft">
                     Request Remote Help <span class="ml-2" aria-hidden="true">→</span>
                 </a>
 

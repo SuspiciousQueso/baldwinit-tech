@@ -22,7 +22,7 @@
             <a href="/" class="text-sm text-white/70 hover:text-white transition">Home</a>
             <a href="/services.php" class="text-sm text-white/70 hover:text-white transition">Services</a>
 
-            <a href="/contact.php" class="text-sm text-white/70 hover:text-white transition">Contact </a>||
+            <a href="/contact.php" class="text-sm text-white/70 hover:text-white transition">Contact </a><span class="text-emerald-400">||</span>
             <a href="/operator.php" class="text-sm text-white/70 hover:text-white transition"> The Operator</a>
         </nav>
 
