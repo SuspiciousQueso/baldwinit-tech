@@ -4,7 +4,7 @@
         <a href="/" class="flex items-center gap-3">
             <div class="h-10 w-10 flex items-center justify-center">
                 <img
-                        src="/assets/img/baldwinit-logo.png"
+                        src="/assets/img/baldwinit-logo-sm.png"
                         alt="BaldwinIT"
                         class="max-h-full max-w-full object-contain"
                 />
