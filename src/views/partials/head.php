@@ -4,7 +4,7 @@
 <meta name="color-scheme" content="dark light">
 <title><?= e($title ?? config('app_name')) ?></title>
 <meta name="description" content="<?= e($description ?? 'Remote-first IT support for home users and small setups. Calm, honest help. No upselling.') ?>">
-
+<link rel="stylesheet" href="/assets/css/app.css"
 <!-- Tailwind CDN (MVP) -->
 <script src="https://cdn.tailwindcss.com"></script>
 

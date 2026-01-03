@@ -1,0 +1,43 @@
+/* Operator / Services hover card */
+.card-hover {
+    @apply group relative overflow-hidden rounded-3xl
+    border border-white/10 bg-white/5
+    p-6 md:p-8 shadow-sm transition
+    hover:-translate-y-0.5;
+}
+
+.card-hover::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    opacity: 0;
+    transition: opacity 200ms ease;
+    pointer-events: none;
+}
+
+.card-hover:hover::before {
+    opacity: 1;
+}
+.card-emerald::before {
+    background: radial-gradient(
+            700px circle at 20% 0%,
+            rgba(16,185,129,0.10),
+            transparent 45%
+    );
+}
+
+.card-cyan::before {
+    background: radial-gradient(
+            700px circle at 20% 0%,
+            rgba(34,211,238,0.10),
+            transparent 45%
+    );
+}
+
+.card-emerald {
+    @apply hover:border-emerald-500/35;
+}
+
+.card-cyan {
+    @apply hover:border-cyan-500/35;
+}
