@@ -10,7 +10,8 @@ WORKDIR /srv
 COPY public /srv/public
 COPY src /srv/src
 COPY Caddyfile /etc/caddy/Caddyfile
-
+# Adding Caddy user and group
+RUN addgroup -S caddy && adduser -S -G caddy caddy
 # php-fpm config (simple)
 RUN mkdir -p /run/php && \
     sed -i 's|^;*listen =.*|listen = 127.0.0.1:9000|g' /etc/php83/php-fpm.d/www.conf && \
