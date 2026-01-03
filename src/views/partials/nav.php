@@ -18,15 +18,12 @@
 
 
 
-        <nav class="flex items-center gap-2 text-sm">
-            <a href="/" class="px-3 py-2 rounded-xl <?= is_active('/') ? 'bg-white/10 text-white' : 'text-white/70 hover:text-white hover:bg-white/5' ?> transition">Home</a>
-            <a href="/services.php" class="px-3 py-2 rounded-xl <?= is_active('/services.php') ? 'bg-white/10 text-white' : 'text-white/70 hover:text-white hover:bg-white/5' ?> transition">Services</a>
-            <a href="/contact.php" class="px-3 py-2 rounded-xl <?= is_active('/contact.php') ? 'bg-white/10 text-white' : 'text-white/70 hover:text-white hover:bg-white/5' ?> transition">Contact</a>
-
-            <a href="/contact.php" class="ml-2 inline-flex items-center gap-2 px-3 py-2 rounded-xl bg-white text-black font-semibold hover:bg-white/90 transition shadow-soft">
-                Request Help
-                <span aria-hidden="true">→</span>
-            </a>
+        <nav class="flex items-center gap-4">
+            <a href="/" class="text-sm text-white/70 hover:text-white transition">Home</a>
+            <a href="/services.php" class="text-sm text-white/70 hover:text-white transition">Services</a>
+            <a href="/operator.php" class="text-sm text-white/70 hover:text-white transition">Operator</a>
+            <a href="/contact.php" class="text-sm text-white/70 hover:text-white transition">Contact</a>
         </nav>
+
     </div>
 </header>
