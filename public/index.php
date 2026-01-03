@@ -20,13 +20,13 @@ $description = 'Remote-first IT support for home users and small setups. Fast, c
             </div>
 
             <h1 class="text-3xl md:text-5xl font-semibold tracking-tight text-white">
-                Independent IT support built by someone who runs systems —
+                Clear, competent IT support — built for real problems. —
                 <span class="text-white/70">not just fixes symptoms.</span>
             </h1>
 
             <p class="text-base md:text-lg text-white/70 max-w-3xl">
-                If your computer is slow, Wi-Fi is acting up, email won’t behave, or you just need someone to explain what’s going on —
-                I can usually resolve it remotely, same day.
+                From everyday tech issues to deeper system troubleshooting, I focus on fixing the problem and explaining what’s happening along the way.
+                Remote support is usually all that’s needed.
             </p>
 
             <div class="flex flex-col sm:flex-row gap-3">
