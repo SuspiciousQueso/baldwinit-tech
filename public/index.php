@@ -20,8 +20,8 @@ $description = 'Remote-first IT support for home users and small setups. Fast, c
             </div>
 
             <h1 class="text-3xl md:text-5xl font-semibold tracking-tight text-white">
-                Clear, competent IT support — built for real problems —
-                <span class="text-white/70">not just temporary fixes.</span>
+                Clear, competent IT support, built for real problems —
+                <span class="text-white/70">no temporary fixes.</span>
             </h1>
 
             <p class="text-base md:text-lg text-white/70 max-w-3xl">
