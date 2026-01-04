@@ -28,7 +28,7 @@ $description = 'Request remote support or open a ticket. Fast, calm help.';
 
         <div class="rounded-3xl border border-white/10 bg-white/5 p-6">
             <div class="text-lg font-semibold text-white/90">Ticket Intake</div>
-            <p class="mt-2 text-sm text-white/65">If you prefer a structured workflow, open a ticket.</p>
+            <p class="mt-2 text-sm text-white/65">If you prefer a structured workflow, create an account and open a ticket here.</p>
 
             <?php if (config('ticket_url')): ?>
                 <a class="mt-4 inline-flex items-center justify-center w-full px-5 py-3 rounded-2xl bg-white/10 border border-white/10 text-white hover:bg-white/15 transition"
@@ -46,10 +46,10 @@ $description = 'Request remote support or open a ticket. Fast, calm help.';
     <div class="mt-10 rounded-3xl border border-white/10 bg-white/5 p-6 md:p-8">
         <div class="text-lg font-semibold text-white/90">What to send me</div>
         <ul class="mt-3 space-y-2 text-sm text-white/65">
-            <li>• What’s broken (and what you expected instead)</li>
-            <li>• Device + OS (Windows/macOS/Linux/phone)</li>
+            <li>• Problem Description: </li>
+            <li>• Device type + OS: (Windows/macOS/Linux/phone)</li>
             <li>• Any error messages (copy/paste or screenshot)</li>
-            <li>• When you’re available today/tomorrow</li>
+            <li>• Your availability </li>
         </ul>
     </div>
 </main>
