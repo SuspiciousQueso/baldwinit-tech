@@ -2,7 +2,7 @@
 declare(strict_types=1);
 require __DIR__ . '/../src/helpers.php';
 
-$title = 'The Operator — BaldwinIT';
+$title = 'The Admin — BaldwinIT';
 $description = 'How BaldwinIT thinks: systems-first, remote-first support rooted in Linux and infrastructure. Fix the cause, explain the why.';
 ?><!doctype html>
 <html lang="en" class="dark">
@@ -12,7 +12,7 @@ $description = 'How BaldwinIT thinks: systems-first, remote-first support rooted
 
 <main class="mx-auto max-w-5xl px-4 pt-10 pb-14">
     <header class="max-w-3xl">
-        <h1 class="text-3xl md:text-4xl font-semibold tracking-tight">The Operator</h1>
+        <h1 class="text-3xl md:text-4xl font-semibold tracking-tight">The Admin</h1>
         <p class="mt-3 text-white/70 text-lg leading-relaxed">
             I don’t approach IT as a collection of fixes — I approach it as systems that either work together, or don’t.
             Most problems aren’t random. They’re symptoms of drift, layering, or tools that were never designed to coexist.
