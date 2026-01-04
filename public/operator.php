@@ -14,9 +14,9 @@ $description = 'How BaldwinIT thinks: systems-first, remote-first support rooted
     <header class="max-w-3xl">
         <h1 class="text-3xl md:text-4xl font-semibold tracking-tight">The Admin</h1>
         <p class="mt-3 text-white/70 text-lg leading-relaxed">
-            I don’t approach IT as a collection of fixes — I approach it as systems that either work together, or don’t.
+            I approach IT from a realistic perspective — start with the simplest possibilities and work my way down.
             Most problems aren’t random. They’re symptoms of drift, layering, or tools that were never designed to coexist.
-            My job is to step back, understand the whole environment, and correct the cause — not just the symptom.
+            My job is to step back, understand the whole environment, and correct the cause — <em>not</em> just the symptom.
         </p>
 
         <div class="mt-5 flex flex-wrap gap-2">
